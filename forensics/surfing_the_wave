@@ -1,0 +1,27 @@
+>>> from scipy.io import wavfile
+>>> data=wavfile.read("main.wav")
+>>> print(data)
+
+>>> import numpy as mp
+>>> import numpy as np
+>>> print(np.unique(data[1]))
+
+>>> x=[y//100 for y in data[1]]
+>>> print(x)
+
+>>> x=[y//100//5-2 for y in data[1]]
+>>> print(x)
+
+>>> import string
+>>> string.hexdigits
+'0123456789abcdefABCDEF'
+>>> y=[string.hexdigits[j] for j in x]
+>>> print(y)
+
+
+>>> z=''.join(y)
+>>> print(z)
+
+>>> bytearray.fromhex(z).decode()
+
+ have been blessed\n# picoCTF{mU21C_1s_1337_fa54924c}'
