@@ -1,0 +1,8 @@
+open the instance 
+
+then inspect the page then using login id and random password the login is done and inspect the network
+and find the first attempt and inspect and resend the packet and the decoded vallue is added to the header "X-Dev-Access" = "yes"
+then send the packet 
+
+
+"picoCTF{brut4_f0rc4_cbb8faa7}"
