@@ -1,0 +1,7 @@
+using gzip gzip the file into normal format 
+
+and using strings open the file and we could see make words and names 
+
+from that using grep search for word pico 
+
+picoCTF{1t5_ju5t_4_5tr1n9_c63b02ef}
