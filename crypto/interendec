@@ -1,0 +1,4 @@
+by using base64 decode we get it in another format and decode it again to ceaser cipher of shift -7 to get the flag
+
+picoCTF{caesar_d3cr9pt3d_b204adc6}
+
