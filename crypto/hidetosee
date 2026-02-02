@@ -1,0 +1,7 @@
+using the file use steghide command to extract the data 
+
+└─$ steghide extract -sf atbash.jpg -xf sec.txt
+and decode the atbash cipher to orginal format
+
+
+picoCTF{atbash_crack_7142fde9}
